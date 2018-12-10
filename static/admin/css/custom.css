@@ -1,0 +1,72 @@
+/*!
+* 后台自定义css
+*/
+.form-control[readonly].search-datepicker {
+    background-color: #fff;
+    cursor: default;
+}
+
+.help-block-line {
+    margin-top: 0;
+}
+
+.help-line {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 12px;
+    font-style: normal;
+    color: #a4a4a4;
+}
+
+@media screen and (max-width: 992px) {
+    .help-line {
+        display: block;
+    }
+
+    .search-bar-130, .search-bar-200, .search-bar-380 {
+        width: 100%;
+    }
+}
+
+.form-option-line {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.form-validate-msg {
+    font-size: 12px;
+    font-style: normal;
+    color: #f3b760;
+    margin-top: 5px;
+}
+
+.form-option-require {
+    font-size: 12px;
+    font-weight: normal;
+    color: red;
+}
+
+.uploader-list,.filePicker{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.form-option-webuploader-line{
+    height: 40px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    padding-top: 0;
+}
+.ui-sortable-images-state-highlight{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #fff;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
+    box-sizing: border-box;
+    width: 110px;
+    height: 110px;
+}
